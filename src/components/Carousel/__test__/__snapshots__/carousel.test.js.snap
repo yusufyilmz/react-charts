@@ -1,0 +1,1195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
+<Carousel>
+  <SliderDiv>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "lastClassName": "kkvGpf",
+            "rules": Array [
+              "
+    position: relative;
+    width: 100%;
+    @media screen and (min-width: 1100px) {
+        width: 90%;
+    };
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+",
+            ],
+          },
+          "displayName": "SliderDiv",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-htpNat kkvGpf"
+      >
+        <SliderWrapperDiv
+          translateValue={0}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bxivhb",
+                  "isStatic": false,
+                  "lastClassName": "dHPbIu",
+                  "rules": Array [
+                    "
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: ",
+                    [Function],
+                    ";
+    transition: transform ease-out 0.45s;
+    display: flex   
+",
+                  ],
+                },
+                "displayName": "SliderWrapperDiv",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bxivhb",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            translateValue={0}
+          >
+            <div
+              className="sc-bxivhb dHPbIu"
+            >
+              <SlideDiv
+                key=".0"
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-ifAKCX",
+                        "isStatic": true,
+                        "lastClassName": "ecyJMX",
+                        "rules": Array [
+                          "
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+",
+                        ],
+                      },
+                      "displayName": "SlideDiv",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-ifAKCX",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={
+                    Object {
+                      "current": <div
+                        class="sc-ifAKCX ecyJMX"
+                      >
+                        <div
+                          class="sc-gZMcBi gwbsxK"
+                        >
+                          <div>
+                            <svg
+                              height="400"
+                              width="300"
+                            >
+                              <g
+                                transform="translate(150,200)"
+                              >
+                                <g>
+                                  <path
+                                    d="M0.8744819193745053,-127.9677199675574A2,2,0,0,1,2.9193956993647316,-129.96721559205048A130,130,0,1,1,-74.03097187243246,106.86166386325412A2,2,0,0,1,-74.51006783237573,104.04206776077295L-69.2185651698926,96.75893916400611A2,2,0,0,1,-66.46438779994702,96.28855152290045A117,117,0,1,0,2.8261712988808134,-116.96586149723082A2,2,0,0,1,0.8744819193745013,-118.96527793308091Z"
+                                    fill="rgb(71, 209, 71)"
+                                    stroke-width="2"
+                                  />
+                                </g>
+                                <g>
+                                  <path
+                                    d="M-75.92500930047096,103.01405260956342A2,2,0,0,1,-78.75465334061494,103.42970838786876A130,130,0,0,1,-2.9193956993648205,-129.96721559205048A2,2,0,0,1,-0.8744819193745679,-127.96771996755741L-0.8744819193745226,-118.96527793308094A2,2,0,0,1,-2.826171298880833,-116.96586149723083A117,117,0,0,0,-71.03722901956564,92.9661879030316A2,2,0,0,1,-70.63350663798782,95.73092401279658Z"
+                                    fill="rgb(0, 102, 0)"
+                                    stroke-width="2"
+                                  />
+                                </g>
+                                <text
+                                  class="sc-EHOje fRAeWG"
+                                  y="-1em"
+                                >
+                                  REVENUE
+                                </text>
+                                <text
+                                  class="sc-EHOje sc-bZQynM jPBHtV"
+                                  y="0.6em"
+                                >
+                                  200.000 €
+                                </text>
+                                <svg
+                                  height="200"
+                                  width="400"
+                                  x="-10.5em"
+                                  y="1.5em"
+                                >
+                                  <g>
+                                    <path
+                                      d="M75,41.36507936507937C75,41.36507936507937,90.24998671065234,35.433858404072005,97.875,34.73015873015873C105.49998671074499,34.02646150914004,113.12502224452028,38.14813465746893,120.75,37.14285714285714C128.3750222447798,36.13757376277342,135.99998203258264,29.402108111163994,143.625,28.698412698412696C151.24998203275194,27.994720601989222,158.875071774508,34.93113365748953,166.5,32.92063492063492C174.12507177721056,30.910098332860183,181.74992654916068,18.745988169256382,189.375,16.634920634920633C196.99992655199068,14.52389377080166,204.62503019106165,21.359765671246986,212.25,20.253968253968257C219.87503019153982,19.148162079812284,227.4999928025771,10.201052317768482,235.125,10C242.74999280260423,9.798948061786785,258,19.04761904761905,258,19.04761904761905"
+                                      fill="none"
+                                      stroke="#47d147"
+                                      stroke-width="2"
+                                    />
+                                  </g>
+                                </svg>
+                              </g>
+                            </svg>
+                          </div>
+                          <div
+                            class="sc-iwsKbI cDUhKx"
+                          >
+                            <div>
+                              <h2
+                                class="sc-gzVnrw kVnNSj"
+                                color="#47d147"
+                              >
+                                Tablet
+                              </h2>
+                              <div
+                                class="sc-htoDjs iKodHJ"
+                              >
+                                <p
+                                  class="sc-dnqmqq gPgCvF"
+                                  color="#47d147"
+                                >
+                                  60
+                                  %
+                                </p>
+                                <p
+                                  class="sc-dnqmqq bBeEdo"
+                                  color="#47d147"
+                                  type="value"
+                                >
+                                  120.000 €
+                                </p>
+                              </div>
+                            </div>
+                            <div>
+                              <h2
+                                class="sc-gzVnrw fMoslM"
+                                color="#006600"
+                              >
+                                Smartphone
+                              </h2>
+                              <div
+                                class="sc-htoDjs dDTyOE"
+                              >
+                                <p
+                                  class="sc-dnqmqq gSWTwM"
+                                  color="#006600"
+                                >
+                                  40
+                                  %
+                                </p>
+                                <p
+                                  class="sc-dnqmqq cRgTQf"
+                                  color="#006600"
+                                  type="value"
+                                >
+                                  80.000 €
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <hr />
+                        </div>
+                      </div>,
+                    }
+                  }
+                >
+                  <div
+                    className="sc-ifAKCX ecyJMX"
+                  >
+                    <Chart
+                      item={
+                        Object {
+                          "datas": Array [
+                            Object {
+                              "id": 1,
+                              "value": 1.1,
+                            },
+                            Object {
+                              "id": 2,
+                              "value": 2.2,
+                            },
+                            Object {
+                              "id": 3,
+                              "value": 1.8,
+                            },
+                            Object {
+                              "id": 4,
+                              "value": 3.2,
+                            },
+                            Object {
+                              "id": 5,
+                              "value": 2.5,
+                            },
+                            Object {
+                              "id": 6,
+                              "value": 5.2,
+                            },
+                            Object {
+                              "id": 7,
+                              "value": 4.6,
+                            },
+                            Object {
+                              "id": 8,
+                              "value": 6.3,
+                            },
+                            Object {
+                              "id": 9,
+                              "value": 4.8,
+                            },
+                          ],
+                          "title": "REVENUE",
+                          "totalValue": 200000,
+                          "valueType": "euro",
+                          "values": Array [
+                            Object {
+                              "color": "#47d147",
+                              "name": "Tablet",
+                              "percentage": 60,
+                            },
+                            Object {
+                              "color": "#006600",
+                              "name": "Smartphone",
+                              "percentage": 40,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <ChartDiv>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "sc-gZMcBi",
+                                "isStatic": true,
+                                "lastClassName": "gwbsxK",
+                                "rules": Array [
+                                  "
+    margin: 0 20px;
+",
+                                ],
+                              },
+                              "displayName": "ChartDiv",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "sc-gZMcBi",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="sc-gZMcBi gwbsxK"
+                          >
+                            <DonutChart
+                              colors={
+                                Array [
+                                  "#47d147",
+                                  "#006600",
+                                ]
+                              }
+                              datas={
+                                Array [
+                                  Object {
+                                    "id": 1,
+                                    "value": 1.1,
+                                  },
+                                  Object {
+                                    "id": 2,
+                                    "value": 2.2,
+                                  },
+                                  Object {
+                                    "id": 3,
+                                    "value": 1.8,
+                                  },
+                                  Object {
+                                    "id": 4,
+                                    "value": 3.2,
+                                  },
+                                  Object {
+                                    "id": 5,
+                                    "value": 2.5,
+                                  },
+                                  Object {
+                                    "id": 6,
+                                    "value": 5.2,
+                                  },
+                                  Object {
+                                    "id": 7,
+                                    "value": 4.6,
+                                  },
+                                  Object {
+                                    "id": 8,
+                                    "value": 6.3,
+                                  },
+                                  Object {
+                                    "id": 9,
+                                    "value": 4.8,
+                                  },
+                                ]
+                              }
+                              height={400}
+                              title="REVENUE"
+                              value="200.000 €"
+                              values={
+                                Array [
+                                  60,
+                                  40,
+                                ]
+                              }
+                              width={300}
+                            >
+                              <div>
+                                <svg
+                                  height={400}
+                                  width={300}
+                                >
+                                  <g
+                                    transform="translate(150,200)"
+                                  >
+                                    <Slice
+                                      colors={
+                                        Array [
+                                          "#47d147",
+                                          "#006600",
+                                        ]
+                                      }
+                                      key="136"
+                                      pie={
+                                        Array [
+                                          Object {
+                                            "data": 60,
+                                            "endAngle": 3.769911184307752,
+                                            "index": 0,
+                                            "padAngle": 0,
+                                            "startAngle": 0,
+                                            "value": 60,
+                                          },
+                                          Object {
+                                            "data": 40,
+                                            "endAngle": 6.283185307179586,
+                                            "index": 1,
+                                            "padAngle": 0,
+                                            "startAngle": 3.769911184307752,
+                                            "value": 40,
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      <ChartPath
+                                        color="rgb(71, 209, 71)"
+                                        colors={
+                                          Array [
+                                            "#47d147",
+                                            "#006600",
+                                          ]
+                                        }
+                                        data={
+                                          Object {
+                                            "data": 60,
+                                            "endAngle": 3.769911184307752,
+                                            "index": 0,
+                                            "padAngle": 0,
+                                            "startAngle": 0,
+                                            "value": 60,
+                                          }
+                                        }
+                                        key="139"
+                                        pie={
+                                          Array [
+                                            Object {
+                                              "data": 60,
+                                              "endAngle": 3.769911184307752,
+                                              "index": 0,
+                                              "padAngle": 0,
+                                              "startAngle": 0,
+                                              "value": 60,
+                                            },
+                                            Object {
+                                              "data": 40,
+                                              "endAngle": 6.283185307179586,
+                                              "index": 1,
+                                              "padAngle": 0,
+                                              "startAngle": 3.769911184307752,
+                                              "value": 40,
+                                            },
+                                          ]
+                                        }
+                                        radius={130}
+                                      >
+                                        <g>
+                                          <path
+                                            d="M0.8744819193745053,-127.9677199675574A2,2,0,0,1,2.9193956993647316,-129.96721559205048A130,130,0,1,1,-74.03097187243246,106.86166386325412A2,2,0,0,1,-74.51006783237573,104.04206776077295L-69.2185651698926,96.75893916400611A2,2,0,0,1,-66.46438779994702,96.28855152290045A117,117,0,1,0,2.8261712988808134,-116.96586149723082A2,2,0,0,1,0.8744819193745013,-118.96527793308091Z"
+                                            fill="rgb(71, 209, 71)"
+                                            onMouseOut={[Function]}
+                                            onMouseOver={[Function]}
+                                            strokeWidth={2}
+                                          />
+                                        </g>
+                                      </ChartPath>
+                                      <ChartPath
+                                        color="rgb(0, 102, 0)"
+                                        colors={
+                                          Array [
+                                            "#47d147",
+                                            "#006600",
+                                          ]
+                                        }
+                                        data={
+                                          Object {
+                                            "data": 40,
+                                            "endAngle": 6.283185307179586,
+                                            "index": 1,
+                                            "padAngle": 0,
+                                            "startAngle": 3.769911184307752,
+                                            "value": 40,
+                                          }
+                                        }
+                                        key="140"
+                                        pie={
+                                          Array [
+                                            Object {
+                                              "data": 60,
+                                              "endAngle": 3.769911184307752,
+                                              "index": 0,
+                                              "padAngle": 0,
+                                              "startAngle": 0,
+                                              "value": 60,
+                                            },
+                                            Object {
+                                              "data": 40,
+                                              "endAngle": 6.283185307179586,
+                                              "index": 1,
+                                              "padAngle": 0,
+                                              "startAngle": 3.769911184307752,
+                                              "value": 40,
+                                            },
+                                          ]
+                                        }
+                                        radius={130}
+                                      >
+                                        <g>
+                                          <path
+                                            d="M-75.92500930047096,103.01405260956342A2,2,0,0,1,-78.75465334061494,103.42970838786876A130,130,0,0,1,-2.9193956993648205,-129.96721559205048A2,2,0,0,1,-0.8744819193745679,-127.96771996755741L-0.8744819193745226,-118.96527793308094A2,2,0,0,1,-2.826171298880833,-116.96586149723083A117,117,0,0,0,-71.03722901956564,92.9661879030316A2,2,0,0,1,-70.63350663798782,95.73092401279658Z"
+                                            fill="rgb(0, 102, 0)"
+                                            onMouseOut={[Function]}
+                                            onMouseOver={[Function]}
+                                            strokeWidth={2}
+                                          />
+                                        </g>
+                                      </ChartPath>
+                                    </Slice>
+                                    <text
+                                      key="137"
+                                      y="-1em"
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "sc-EHOje",
+                                              "isStatic": true,
+                                              "lastClassName": "fRAeWG",
+                                              "rules": Array [
+                                                "
+    text-anchor: middle;
+    font-weight: bold;
+    font-size: larger;
+    fill: lightgray;
+",
+                                              ],
+                                            },
+                                            "displayName": "text",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "sc-EHOje",
+                                            "target": "text",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                        y="-1em"
+                                      >
+                                        <text
+                                          className="sc-EHOje fRAeWG"
+                                          y="-1em"
+                                        >
+                                          REVENUE
+                                        </text>
+                                      </StyledComponent>
+                                    </text>
+                                    <text
+                                      key="138"
+                                      y="0.6em"
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "sc-bZQynM",
+                                              "isStatic": true,
+                                              "lastClassName": "jPBHtV",
+                                              "rules": Array [
+                                                "
+    text-anchor: middle;
+    font-weight: bold;
+    font-size: larger;
+    fill: lightgray;
+",
+                                                "
+    font-size: larger;
+    fill: black;
+    font-size: x-large;
+",
+                                              ],
+                                            },
+                                            "displayName": "text",
+                                            "foldedComponentIds": Array [
+                                              "sc-EHOje",
+                                            ],
+                                            "render": [Function],
+                                            "styledComponentId": "sc-bZQynM",
+                                            "target": "text",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
+                                        y="0.6em"
+                                      >
+                                        <text
+                                          className="sc-EHOje sc-bZQynM jPBHtV"
+                                          y="0.6em"
+                                        >
+                                          200.000 €
+                                        </text>
+                                      </StyledComponent>
+                                    </text>
+                                    <LineChart
+                                      color="#47d147"
+                                      data={
+                                        Array [
+                                          Object {
+                                            "id": 1,
+                                            "value": 1.1,
+                                          },
+                                          Object {
+                                            "id": 2,
+                                            "value": 2.2,
+                                          },
+                                          Object {
+                                            "id": 3,
+                                            "value": 1.8,
+                                          },
+                                          Object {
+                                            "id": 4,
+                                            "value": 3.2,
+                                          },
+                                          Object {
+                                            "id": 5,
+                                            "value": 2.5,
+                                          },
+                                          Object {
+                                            "id": 6,
+                                            "value": 5.2,
+                                          },
+                                          Object {
+                                            "id": 7,
+                                            "value": 4.6,
+                                          },
+                                          Object {
+                                            "id": 8,
+                                            "value": 6.3,
+                                          },
+                                          Object {
+                                            "id": 9,
+                                            "value": 4.8,
+                                          },
+                                        ]
+                                      }
+                                      height={200}
+                                      margin={1}
+                                      width={400}
+                                    >
+                                      <svg
+                                        height={200}
+                                        width={400}
+                                        x="-10.5em"
+                                        y="1.5em"
+                                      >
+                                        <ChartPath
+                                          color="none"
+                                          data={
+                                            Array [
+                                              Object {
+                                                "id": 1,
+                                                "value": 1.1,
+                                              },
+                                              Object {
+                                                "id": 2,
+                                                "value": 2.2,
+                                              },
+                                              Object {
+                                                "id": 3,
+                                                "value": 1.8,
+                                              },
+                                              Object {
+                                                "id": 4,
+                                                "value": 3.2,
+                                              },
+                                              Object {
+                                                "id": 5,
+                                                "value": 2.5,
+                                              },
+                                              Object {
+                                                "id": 6,
+                                                "value": 5.2,
+                                              },
+                                              Object {
+                                                "id": 7,
+                                                "value": 4.6,
+                                              },
+                                              Object {
+                                                "id": 8,
+                                                "value": 6.3,
+                                              },
+                                              Object {
+                                                "id": 9,
+                                                "value": 4.8,
+                                              },
+                                            ]
+                                          }
+                                          height={200}
+                                          margin={1}
+                                          radius={130}
+                                          strokeColor="#47d147"
+                                          type="line"
+                                          width={400}
+                                        >
+                                          <g>
+                                            <path
+                                              d="M75,41.36507936507937C75,41.36507936507937,90.24998671065234,35.433858404072005,97.875,34.73015873015873C105.49998671074499,34.02646150914004,113.12502224452028,38.14813465746893,120.75,37.14285714285714C128.3750222447798,36.13757376277342,135.99998203258264,29.402108111163994,143.625,28.698412698412696C151.24998203275194,27.994720601989222,158.875071774508,34.93113365748953,166.5,32.92063492063492C174.12507177721056,30.910098332860183,181.74992654916068,18.745988169256382,189.375,16.634920634920633C196.99992655199068,14.52389377080166,204.62503019106165,21.359765671246986,212.25,20.253968253968257C219.87503019153982,19.148162079812284,227.4999928025771,10.201052317768482,235.125,10C242.74999280260423,9.798948061786785,258,19.04761904761905,258,19.04761904761905"
+                                              fill="none"
+                                              onMouseOut={[Function]}
+                                              onMouseOver={[Function]}
+                                              stroke="#47d147"
+                                              strokeWidth={2}
+                                            />
+                                          </g>
+                                        </ChartPath>
+                                      </svg>
+                                    </LineChart>
+                                  </g>
+                                </svg>
+                              </div>
+                            </DonutChart>
+                            <ChartDetailDiv>
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-iwsKbI",
+                                      "isStatic": true,
+                                      "lastClassName": "cDUhKx",
+                                      "rules": Array [
+                                        "
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    max-width: 325px;
+    margin-top: 20px;
+",
+                                      ],
+                                    },
+                                    "displayName": "ChartDetailDiv",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-iwsKbI",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="sc-iwsKbI cDUhKx"
+                                >
+                                  <ChartDetail
+                                    color="#47d147"
+                                    index={0}
+                                    item={
+                                      Object {
+                                        "color": "#47d147",
+                                        "name": "Tablet",
+                                        "percentage": 60,
+                                      }
+                                    }
+                                    key="134"
+                                    value="120.000 €"
+                                  >
+                                    <div>
+                                      <h2
+                                        color="#47d147"
+                                        index={0}
+                                      >
+                                        <StyledComponent
+                                          color="#47d147"
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "sc-gzVnrw",
+                                                "isStatic": false,
+                                                "lastClassName": "fMoslM",
+                                                "rules": Array [
+                                                  "
+    color: ",
+                                                  [Function],
+                                                  ";
+    font-weight: bolder;
+    float: ",
+                                                  [Function],
+                                                  "
+",
+                                                ],
+                                              },
+                                              "displayName": "h2",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "sc-gzVnrw",
+                                              "target": "h2",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          index={0}
+                                        >
+                                          <h2
+                                            className="sc-gzVnrw kVnNSj"
+                                            color="#47d147"
+                                          >
+                                            Tablet
+                                          </h2>
+                                        </StyledComponent>
+                                      </h2>
+                                      <div
+                                        index={0}
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "sc-htoDjs",
+                                                "isStatic": false,
+                                                "lastClassName": "dDTyOE",
+                                                "rules": Array [
+                                                  "
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    float: ",
+                                                  [Function],
+                                                  "
+",
+                                                ],
+                                              },
+                                              "displayName": "div",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "sc-htoDjs",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          index={0}
+                                        >
+                                          <div
+                                            className="sc-htoDjs iKodHJ"
+                                          >
+                                            <p
+                                              color="#47d147"
+                                              index={0}
+                                            >
+                                              <StyledComponent
+                                                color="#47d147"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "sc-dnqmqq",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cRgTQf",
+                                                      "rules": Array [
+                                                        "
+    margin: ",
+                                                        [Function],
+                                                        ";
+    color: ",
+                                                        [Function],
+                                                        ";
+",
+                                                      ],
+                                                    },
+                                                    "displayName": "p",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "sc-dnqmqq",
+                                                    "target": "p",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                index={0}
+                                              >
+                                                <p
+                                                  className="sc-dnqmqq gPgCvF"
+                                                  color="#47d147"
+                                                >
+                                                  60
+                                                  %
+                                                </p>
+                                              </StyledComponent>
+                                            </p>
+                                            <p
+                                              color="#47d147"
+                                              index={0}
+                                              type="value"
+                                            >
+                                              <StyledComponent
+                                                color="#47d147"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "sc-dnqmqq",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cRgTQf",
+                                                      "rules": Array [
+                                                        "
+    margin: ",
+                                                        [Function],
+                                                        ";
+    color: ",
+                                                        [Function],
+                                                        ";
+",
+                                                      ],
+                                                    },
+                                                    "displayName": "p",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "sc-dnqmqq",
+                                                    "target": "p",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                index={0}
+                                                type="value"
+                                              >
+                                                <p
+                                                  className="sc-dnqmqq bBeEdo"
+                                                  color="#47d147"
+                                                  type="value"
+                                                >
+                                                  120.000 €
+                                                </p>
+                                              </StyledComponent>
+                                            </p>
+                                          </div>
+                                        </StyledComponent>
+                                      </div>
+                                    </div>
+                                  </ChartDetail>
+                                  <ChartDetail
+                                    color="#006600"
+                                    index={1}
+                                    item={
+                                      Object {
+                                        "color": "#006600",
+                                        "name": "Smartphone",
+                                        "percentage": 40,
+                                      }
+                                    }
+                                    key="135"
+                                    value="80.000 €"
+                                  >
+                                    <div>
+                                      <h2
+                                        color="#006600"
+                                        index={1}
+                                      >
+                                        <StyledComponent
+                                          color="#006600"
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "sc-gzVnrw",
+                                                "isStatic": false,
+                                                "lastClassName": "fMoslM",
+                                                "rules": Array [
+                                                  "
+    color: ",
+                                                  [Function],
+                                                  ";
+    font-weight: bolder;
+    float: ",
+                                                  [Function],
+                                                  "
+",
+                                                ],
+                                              },
+                                              "displayName": "h2",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "sc-gzVnrw",
+                                              "target": "h2",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          index={1}
+                                        >
+                                          <h2
+                                            className="sc-gzVnrw fMoslM"
+                                            color="#006600"
+                                          >
+                                            Smartphone
+                                          </h2>
+                                        </StyledComponent>
+                                      </h2>
+                                      <div
+                                        index={1}
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "sc-htoDjs",
+                                                "isStatic": false,
+                                                "lastClassName": "dDTyOE",
+                                                "rules": Array [
+                                                  "
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    float: ",
+                                                  [Function],
+                                                  "
+",
+                                                ],
+                                              },
+                                              "displayName": "div",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "sc-htoDjs",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          index={1}
+                                        >
+                                          <div
+                                            className="sc-htoDjs dDTyOE"
+                                          >
+                                            <p
+                                              color="#006600"
+                                              index={1}
+                                            >
+                                              <StyledComponent
+                                                color="#006600"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "sc-dnqmqq",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cRgTQf",
+                                                      "rules": Array [
+                                                        "
+    margin: ",
+                                                        [Function],
+                                                        ";
+    color: ",
+                                                        [Function],
+                                                        ";
+",
+                                                      ],
+                                                    },
+                                                    "displayName": "p",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "sc-dnqmqq",
+                                                    "target": "p",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                index={1}
+                                              >
+                                                <p
+                                                  className="sc-dnqmqq gSWTwM"
+                                                  color="#006600"
+                                                >
+                                                  40
+                                                  %
+                                                </p>
+                                              </StyledComponent>
+                                            </p>
+                                            <p
+                                              color="#006600"
+                                              index={1}
+                                              type="value"
+                                            >
+                                              <StyledComponent
+                                                color="#006600"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "sc-dnqmqq",
+                                                      "isStatic": false,
+                                                      "lastClassName": "cRgTQf",
+                                                      "rules": Array [
+                                                        "
+    margin: ",
+                                                        [Function],
+                                                        ";
+    color: ",
+                                                        [Function],
+                                                        ";
+",
+                                                      ],
+                                                    },
+                                                    "displayName": "p",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "sc-dnqmqq",
+                                                    "target": "p",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                                index={1}
+                                                type="value"
+                                              >
+                                                <p
+                                                  className="sc-dnqmqq cRgTQf"
+                                                  color="#006600"
+                                                  type="value"
+                                                >
+                                                  80.000 €
+                                                </p>
+                                              </StyledComponent>
+                                            </p>
+                                          </div>
+                                        </StyledComponent>
+                                      </div>
+                                    </div>
+                                  </ChartDetail>
+                                </div>
+                              </StyledComponent>
+                            </ChartDetailDiv>
+                            <hr />
+                          </div>
+                        </StyledComponent>
+                      </ChartDiv>
+                    </Chart>
+                  </div>
+                </StyledComponent>
+              </SlideDiv>
+            </div>
+          </StyledComponent>
+        </SliderWrapperDiv>
+        0
+      </div>
+    </StyledComponent>
+  </SliderDiv>
+</Carousel>
+`;

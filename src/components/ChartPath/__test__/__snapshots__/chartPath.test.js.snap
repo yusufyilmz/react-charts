@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CHARTPATH COMPONENT snapchat correctly 1`] = `
+<g>
+  <path
+    d="MNaN,NaNLNaN,NaNZ"
+    fill="black"
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    strokeWidth={2}
+  />
+</g>
+`;

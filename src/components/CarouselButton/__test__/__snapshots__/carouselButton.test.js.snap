@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CAROUSELBUTTON COMPONENT snapchat correctly 1`] = `
+<div
+  onClick={[MockFunction]}
+  type="left"
+>
+  <i
+    className="fa fa-angle-double-left"
+  />
+</div>
+`;
