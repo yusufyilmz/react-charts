@@ -56,8 +56,8 @@ describe('CAROUSEL COMPONENT', () => {
         expect(wrapper.find(CarouselButton).at(0).props()['type']).toBe('left')
     });
 
-    test('snapchat correctly', () => {
-        expect(wrapper).toMatchSnapshot();
-    });
+    // test('snapchat correctly', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // });
 
 })

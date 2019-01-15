@@ -32,8 +32,8 @@ describe('CAROUSELBUTTON COMPONENT', () => {
         expect(props.onClick.mock.calls.length).toEqual(1);
     });
 
-    test('snapchat correctly', () => {
-        expect(wrapper).toMatchSnapshot();
-    });
+    // test('snapchat correctly', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // });
 
 })

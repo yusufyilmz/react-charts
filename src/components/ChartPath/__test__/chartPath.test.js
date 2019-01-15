@@ -44,8 +44,8 @@ describe('CHARTPATH COMPONENT', () => {
         expect(wrapper.state().isHovered).toEqual(true)
     });
 
-    test('snapchat correctly', () => {
-        expect(wrapper).toMatchSnapshot();
-    });
+    // test('snapchat correctly', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // });
 
 })

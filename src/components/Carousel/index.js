@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import CarouselButton from '../CarouselButton';
 import { SlideDiv, SliderDiv, SliderWrapperDiv } from './style';
-import { pageMove, pageWidth}  from '../../constants/chartConstants';
-
+import { pageMove, pageWidth } from '../../constants/chartConstants';
+import CarouselDots from '../CarouselDots'
 export default class Carousel extends Component {
 
     slideElement = React.createRef();
@@ -11,7 +11,8 @@ export default class Carousel extends Component {
         super(props)
         this.state = {
             translateValue: 0,
-            buttonVisiblity: 0
+            buttonVisiblity: 0,
+            index: 0
         }
     }
 
@@ -25,7 +26,7 @@ export default class Carousel extends Component {
 
     componentDidUpdate(prevProps, prevState) {
         if (this.state.buttonVisiblity !== prevState.buttonVisiblity || prevState.buttonVisiblity === 0) {
-            this.checkButtonVisibility()
+            this.checkScreenVisibilities()
         }
     }
 
@@ -34,12 +35,13 @@ export default class Carousel extends Component {
     }
 
     handleResize = () => {
-        this.checkButtonVisibility()
+        this.checkScreenVisibilities()
     }
 
-    checkButtonVisibility() {
+    checkScreenVisibilities() {
         this.setState(prevState => ({
             buttonVisiblity: pageWidth() < this.maxSlidesWidth(),
+            dotsVisiblity: pageWidth() < 640,
             translateValue: 0
         }));
     }
@@ -49,12 +51,13 @@ export default class Carousel extends Component {
 
         this.setState(prevState => ({
             translateValue: prevState.translateValue + this.slideElement.current.clientWidth,
-            buttonVisiblity: true
+            buttonVisiblity: true,
+            index: prevState.index - 1
         }));
     }
 
     goToNextSlide = () => {
-        if (-this.state.translateValue + pageWidth() > this.maxSlidesWidth() - pageMove  ) return
+        if (-this.state.translateValue + pageWidth() > this.maxSlidesWidth() - pageMove) return
         this.setState(prevState => ({
             translateValue: prevState.translateValue - this.slideElement.current.clientWidth,
             index: prevState.index + 1,
@@ -65,6 +68,7 @@ export default class Carousel extends Component {
     render() {
         return (
             <SliderDiv>
+
                 <SliderWrapperDiv translateValue={this.state.translateValue}>
                     {React.Children.map(this.props.children, child => (
                         <SlideDiv ref={this.slideElement}>
@@ -72,11 +76,22 @@ export default class Carousel extends Component {
                         </SlideDiv>
                     ))}
                 </SliderWrapperDiv>
+
                 {this.state.buttonVisiblity === true && <Fragment>
-                    <CarouselButton type="left" onClick={this.goToPreviousSlide} />
-                    <CarouselButton type="right" onClick={this.goToNextSlide} />
-                </Fragment>
+                    <CarouselButton
+                        type="left"
+                        onClick={this.goToPreviousSlide} />
+                    <CarouselButton
+                        type="right"
+                        onClick={this.goToNextSlide} />
+                </Fragment>}
+
+                {this.state.dotsVisiblity &&
+                    <CarouselDots
+                        activeDotIndex={this.state.index}
+                        count={this.props.children.length} />
                 }
+
             </SliderDiv>
         );
     }

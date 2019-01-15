@@ -8,7 +8,7 @@ export const Icon = styled.i`
     border-radius: 50%;
     cursor: pointer;
     transition: transform ease-in .1s;
-    top: 65%;
+    top: 60%;
     z-index: 999;
     left: ${props => props.type === 'left' && '25px'};
     right: ${props => props.type === 'right' && '25px'};
@@ -29,8 +29,6 @@ export const Div = styled.div`
     position: absolute;
     top: 0px;
     bottom: 0px;
-    // height: 100%;
-    // width: 50%;
     box-shadow: none;
     outline: 0 !important;
     cursor: none;
