@@ -29,8 +29,8 @@ export const Div = styled.div`
     position: absolute;
     top: 0px;
     bottom: 0px;
-    height: 100%;
-    width: 50%;
+    // height: 100%;
+    // width: 50%;
     box-shadow: none;
     outline: 0 !important;
     cursor: none;
