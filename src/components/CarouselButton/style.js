@@ -9,8 +9,18 @@ export const Div = styled.div`
     height: 100%;
     width: 50%;
     box-shadow: none;
-    outline: 0;
-`;
+    outline: 0 !important;
+    &:focus,
+    &:focus:active,
+    &:active:focus,
+    &:focus {
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
+}
+    `;
 
 Div.displayName = 'div'
 
