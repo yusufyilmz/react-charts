@@ -24,7 +24,7 @@ describe('ACTIONS', () => {
     });
 
 
-    test('fetchData', () => {
+    test('fetchData success', () => {
 
         var response = {
             status: 'OK',
@@ -52,5 +52,65 @@ describe('ACTIONS', () => {
         });
 
     })
+
+    test('fetchData api error', () => {
+
+        var response= {
+            status: 'ERROR',
+            message: 'error occured'
+        };
+
+        moxios.wait(() => {
+            const request = moxios.requests.mostRecent();
+            request.respondWith({
+                status: 200,
+                response
+            });
+        });
+
+        const expectedActions = [
+            {
+                type: actionTypes.FETCH_DATA_ERROR, payload: response.message
+            },
+        ];
+
+        return store.dispatch(actions.fetchData()).then(() => {
+            expect(store.getActions()).toEqual(expectedActions);
+        });
+    })
+
+
+    test('fetchData network error', () => {
+
+        var response = {"message": "Request failed with status code 400", "status": "ERROR"};
+
+        moxios.wait(() => {
+            const request = moxios.requests.mostRecent();
+            request.respondWith({
+                status: 400,
+                response
+            });
+        });
+
+        const expectedActions = [
+            {
+                type: actionTypes.FETCH_DATA_ERROR, payload: response.message
+            },
+        ];
+
+        return store.dispatch(actions.fetchData()).then(() => {
+            expect(store.getActions()).toEqual(expectedActions);
+        });
+    })
+
+
+    test('resetResult success', () => {
+
+        const expectedActions = {
+            type: actionTypes.RESET_RESULT
+        }
+
+        expect(actions.resetResult()).toEqual(expectedActions)
+    });
 
 })

@@ -1,28 +1,5 @@
 import styled from 'styled-components';
 
-export const Div = styled.div`
-    left: ${props => props.type === 'left' && '0px'};
-    right: ${props => props.type === 'right' && '0px'};
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 50%;
-    box-shadow: none;
-    outline: 0 !important;
-    &:focus,
-    &:focus:active,
-    &:active:focus,
-    &:focus {
-  outline: 0 !important;
-  outline-offset: 0  !important;
-  background-image: none  !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none  !important;
-}
-    `;
-
-Div.displayName = 'div'
 
 export const Icon = styled.i`
     color: black;
@@ -36,10 +13,33 @@ export const Icon = styled.i`
     left: ${props => props.type === 'left' && '25px'};
     right: ${props => props.type === 'right' && '25px'};
     position: fixed;
-    &hover {
+    cursor: none;
+    &:hover {
         transition: transform ease-in .1s;
-        transform: scale(1.1)
+        transform: scale(1.5)
     }
 `;
 
 Icon.displayName = 'i'
+
+
+export const Div = styled.div`
+    left: ${props => props.type === 'left' && '0px'};
+    right: ${props => props.type === 'right' && '0px'};
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 50%;
+    box-shadow: none;
+    outline: 0 !important;
+    cursor: none;
+    &:hover {
+        ${Icon} {
+            transition: transform ease-in .1s;
+            transform: scale(1.5)
+        }
+    }
+    `;
+
+Div.displayName = 'div'

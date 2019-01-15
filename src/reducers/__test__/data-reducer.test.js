@@ -37,3 +37,12 @@ describe('FETCH_DATA_ERROR', () => {
 
     });
 });
+
+describe('RESET_RESULT', () => {
+    test('returns correct state', () => {
+        const action = { type: actionTypes.RESET_RESULT };
+        expect(dataReducer(undefined, action)).toEqual({ ...initialState });
+
+    });
+});
+

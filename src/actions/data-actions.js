@@ -18,11 +18,19 @@ const fetchDataError = (error) => {
     }
 }
 
+export const resetResult = () => {
+    return {
+        type: actionTypes.RESET_RESULT,
+    }
+}
+
+
 
 export const fetchData = () => async (dispatch, getState) => {
 
     try {
-
+        //to test 
+        // throw new Error("Error occured while getting data")
         const response = await axios.get('/api/v1/data')
 
         if(response.status=== 200 && response.data.status === 'OK'){
@@ -32,6 +40,6 @@ export const fetchData = () => async (dispatch, getState) => {
         dispatch(fetchDataError(response.data.message))
     }
     catch (e) {
-        dispatch(fetchDataError("An error occured"))
+        dispatch(fetchDataError(e.message))
     }
 }

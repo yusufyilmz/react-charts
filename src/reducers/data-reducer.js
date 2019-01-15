@@ -21,6 +21,12 @@ export default function (state = initialState, action) {
                 error: true,
                 message: action.payload
             }
+        case actionTypes.RESET_RESULT:
+            return {
+                ...state,
+                error: false,
+                message: ''
+            }
         default:
             return state;
     }
