@@ -52,9 +52,8 @@ describe('DONUTCHART COMPONENT', () => {
         expect(wrapper.find('g').props()['transform']).toBe(sty)
     });
 
-
-    // test('snapchat correctly', () => {
-    //     expect(wrapper).toMatchSnapshot();
-    // });
+    test('snapchat correctly', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
 
 })

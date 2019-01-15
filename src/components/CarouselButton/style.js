@@ -8,6 +8,8 @@ export const Div = styled.div`
     bottom: 0px;
     height: 100%;
     width: 50%;
+    box-shadow: none;
+    outline: 0;
 `;
 
 Div.displayName = 'div'

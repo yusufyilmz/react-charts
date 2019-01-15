@@ -40,8 +40,8 @@ describe('CHARTLIST COMPONENT', () => {
         expect(wrapper.find(Chart).length).toBe(3)
     })
 
-    // test('snapchat correctly', () => {
-    //     expect(wrapper).toMatchSnapshot();
-    // });
+    test('snapchat correctly', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
 
 })
