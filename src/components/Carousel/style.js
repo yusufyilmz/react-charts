@@ -7,8 +7,6 @@ export const SliderDiv = styled.div`
         width: 90%;
     };
     margin: 0 auto;
-    height: 100%;
-    overflow: hidden;
     white-space: nowrap;
 `;
 
@@ -19,8 +17,16 @@ export const SliderWrapperDiv = styled.div`
     height: 100%;
     width: 100%;
     transform: ${props =>  `translateX(${props.translateValue}px)`};
-    transition: transform ease-out 0.45s;
-    display: flex   
+    transition: transform ease-out 0.2s;
+    display: flex;
+    align-items: center;
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+    @media screen and (max-width: 600px) {
+        display: block;
+        overflow: visible;
+    }
 `;
 
 SliderWrapperDiv.displayName = 'SliderWrapperDiv'

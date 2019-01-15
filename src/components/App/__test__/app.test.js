@@ -41,8 +41,8 @@ describe('APP COMPONENT', () => {
         expect(wrapper.find(ChartList).length).toBe(1)
     });
 
-    test('snapchat correctly', () => {
-        expect(wrapper).toMatchSnapshot();
-    });
+    // test('snapchat correctly', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // });
 
 })

@@ -39,8 +39,8 @@ describe('CHARTDETAIL COMPONENT', () => {
         expect(wrapper.find('p').at(0).text()).toBe(props.item.percentage + '%');
     });
 
-    test('snapchat correctly', () => {
-        expect(wrapper).toMatchSnapshot();
-    });
+    // test('snapchat correctly', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // });
 
 })

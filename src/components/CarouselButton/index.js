@@ -1,8 +1,7 @@
 
 
 import React from 'react';
-import {Div, Icon} from './style';
-
+import { Div, Icon } from './style';
 
 const CarouselButton = ({ type, onClick }) => {
 
@@ -11,10 +10,12 @@ const CarouselButton = ({ type, onClick }) => {
     }
 
     return (
-        <Div type={type} onClick={onClick}>
-             <Icon className={getIconClassName()}></Icon>
+        <Div
+            type={type}
+            onClick={onClick}>
+            <Icon type={type} className={getIconClassName()}></Icon>
         </Div>
-    )
+    );
 }
 
 export default CarouselButton

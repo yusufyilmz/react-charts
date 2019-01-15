@@ -11,7 +11,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-htpNat",
             "isStatic": true,
-            "lastClassName": "kkvGpf",
+            "lastClassName": "iGrzfa",
             "rules": Array [
               "
     position: relative;
@@ -20,8 +20,6 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
         width: 90%;
     };
     margin: 0 auto;
-    height: 100%;
-    overflow: hidden;
     white-space: nowrap;
 ",
             ],
@@ -39,7 +37,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
       forwardedRef={null}
     >
       <div
-        className="sc-htpNat kkvGpf"
+        className="sc-htpNat iGrzfa"
       >
         <SliderWrapperDiv
           translateValue={0}
@@ -52,7 +50,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bxivhb",
                   "isStatic": false,
-                  "lastClassName": "dHPbIu",
+                  "lastClassName": "hdLRZt",
                   "rules": Array [
                     "
     position: relative;
@@ -61,8 +59,16 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
     transform: ",
                     [Function],
                     ";
-    transition: transform ease-out 0.45s;
-    display: flex   
+    transition: transform ease-out 0.2s;
+    display: flex;
+    align-items: center;
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+    @media screen and (max-width: 600px) {
+        display: block;
+        overflow: visible;
+    }
 ",
                   ],
                 },
@@ -80,7 +86,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
             translateValue={0}
           >
             <div
-              className="sc-bxivhb dHPbIu"
+              className="sc-bxivhb hdLRZt"
             >
               <SlideDiv
                 key=".0"
@@ -118,7 +124,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                         class="sc-ifAKCX ecyJMX"
                       >
                         <div
-                          class="sc-gZMcBi gwbsxK"
+                          class="sc-gqjmRU doHpLQ"
                         >
                           <div>
                             <svg
@@ -173,27 +179,29 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                             </svg>
                           </div>
                           <div
-                            class="sc-iwsKbI cDUhKx"
+                            class="sc-gZMcBi cbnOxK"
                           >
-                            <div>
+                            <div
+                              class="sc-dnqmqq jNGEfT"
+                            >
                               <h2
-                                class="sc-gzVnrw kVnNSj"
+                                class="sc-gzVnrw cSCAAg"
                                 color="#47d147"
                               >
                                 Tablet
                               </h2>
                               <div
-                                class="sc-htoDjs iKodHJ"
+                                class="sc-htoDjs goewmn"
                               >
                                 <p
-                                  class="sc-dnqmqq gPgCvF"
+                                  class="sc-iwsKbI izXlqC"
                                   color="#47d147"
                                 >
                                   60
                                   %
                                 </p>
                                 <p
-                                  class="sc-dnqmqq bBeEdo"
+                                  class="sc-iwsKbI bwnCbB"
                                   color="#47d147"
                                   type="value"
                                 >
@@ -201,25 +209,27 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                                 </p>
                               </div>
                             </div>
-                            <div>
+                            <div
+                              class="sc-dnqmqq jJdajq"
+                            >
                               <h2
-                                class="sc-gzVnrw fMoslM"
+                                class="sc-gzVnrw dkFbWY"
                                 color="#006600"
                               >
                                 Smartphone
                               </h2>
                               <div
-                                class="sc-htoDjs dDTyOE"
+                                class="sc-htoDjs goewmn"
                               >
                                 <p
-                                  class="sc-dnqmqq gSWTwM"
+                                  class="sc-iwsKbI izIgWz"
                                   color="#006600"
                                 >
                                   40
                                   %
                                 </p>
                                 <p
-                                  class="sc-dnqmqq cRgTQf"
+                                  class="sc-iwsKbI etNdsM"
                                   color="#006600"
                                   type="value"
                                 >
@@ -303,19 +313,25 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "sc-gZMcBi",
+                                "componentId": "sc-gqjmRU",
                                 "isStatic": true,
-                                "lastClassName": "gwbsxK",
+                                "lastClassName": "doHpLQ",
                                 "rules": Array [
                                   "
-    margin: 0 20px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 600px) {
+        margin: 0px
+    }
 ",
                                 ],
                               },
                               "displayName": "ChartDiv",
                               "foldedComponentIds": Array [],
                               "render": [Function],
-                              "styledComponentId": "sc-gZMcBi",
+                              "styledComponentId": "sc-gqjmRU",
                               "target": "div",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -325,7 +341,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                           forwardedRef={null}
                         >
                           <div
-                            className="sc-gZMcBi gwbsxK"
+                            className="sc-gqjmRU doHpLQ"
                           >
                             <DonutChart
                               colors={
@@ -743,23 +759,22 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                                     "$$typeof": Symbol(react.forward_ref),
                                     "attrs": Array [],
                                     "componentStyle": ComponentStyle {
-                                      "componentId": "sc-iwsKbI",
+                                      "componentId": "sc-gZMcBi",
                                       "isStatic": true,
-                                      "lastClassName": "cDUhKx",
+                                      "lastClassName": "cbnOxK",
                                       "rules": Array [
                                         "
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    max-width: 325px;
-    margin-top: 20px;
+    width: 100%;
 ",
                                       ],
                                     },
                                     "displayName": "ChartDetailDiv",
                                     "foldedComponentIds": Array [],
                                     "render": [Function],
-                                    "styledComponentId": "sc-iwsKbI",
+                                    "styledComponentId": "sc-gZMcBi",
                                     "target": "div",
                                     "toString": [Function],
                                     "warnTooManyClasses": [Function],
@@ -769,7 +784,7 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                                 forwardedRef={null}
                               >
                                 <div
-                                  className="sc-iwsKbI cDUhKx"
+                                  className="sc-gZMcBi cbnOxK"
                                 >
                                   <ChartDetail
                                     color="#47d147"
@@ -784,192 +799,222 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                                     key="134"
                                     value="120.000 €"
                                   >
-                                    <div>
-                                      <h2
-                                        color="#47d147"
+                                    <div
+                                      index={0}
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "sc-dnqmqq",
+                                              "isStatic": false,
+                                              "lastClassName": "jJdajq",
+                                              "rules": Array [
+                                                "
+    display: flex;
+    flex-direction: column;
+    text-align: ",
+                                                [Function],
+                                                ";
+",
+                                              ],
+                                            },
+                                            "displayName": "div",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "sc-dnqmqq",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
                                         index={0}
                                       >
-                                        <StyledComponent
-                                          color="#47d147"
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "sc-gzVnrw",
-                                                "isStatic": false,
-                                                "lastClassName": "fMoslM",
-                                                "rules": Array [
-                                                  "
-    color: ",
-                                                  [Function],
-                                                  ";
-    font-weight: bolder;
-    float: ",
-                                                  [Function],
-                                                  "
-",
-                                                ],
-                                              },
-                                              "displayName": "h2",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "sc-gzVnrw",
-                                              "target": "h2",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          index={0}
+                                        <div
+                                          className="sc-dnqmqq jNGEfT"
                                         >
                                           <h2
-                                            className="sc-gzVnrw kVnNSj"
                                             color="#47d147"
+                                            index={0}
                                           >
-                                            Tablet
+                                            <StyledComponent
+                                              color="#47d147"
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "sc-gzVnrw",
+                                                    "isStatic": false,
+                                                    "lastClassName": "dkFbWY",
+                                                    "rules": Array [
+                                                      "
+    color: ",
+                                                      [Function],
+                                                      ";
+    font-weight: bolder;
+",
+                                                    ],
+                                                  },
+                                                  "displayName": "h2",
+                                                  "foldedComponentIds": Array [],
+                                                  "render": [Function],
+                                                  "styledComponentId": "sc-gzVnrw",
+                                                  "target": "h2",
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
+                                                }
+                                              }
+                                              forwardedRef={null}
+                                              index={0}
+                                            >
+                                              <h2
+                                                className="sc-gzVnrw cSCAAg"
+                                                color="#47d147"
+                                              >
+                                                Tablet
+                                              </h2>
+                                            </StyledComponent>
                                           </h2>
-                                        </StyledComponent>
-                                      </h2>
-                                      <div
-                                        index={0}
-                                      >
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "sc-htoDjs",
-                                                "isStatic": false,
-                                                "lastClassName": "dDTyOE",
-                                                "rules": Array [
-                                                  "
+                                          <div>
+                                            <StyledComponent
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "sc-htoDjs",
+                                                    "isStatic": true,
+                                                    "lastClassName": "goewmn",
+                                                    "rules": Array [
+                                                      "
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    float: ",
-                                                  [Function],
-                                                  "
 ",
-                                                ],
-                                              },
-                                              "displayName": "div",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "sc-htoDjs",
-                                              "target": "div",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          index={0}
-                                        >
-                                          <div
-                                            className="sc-htoDjs iKodHJ"
-                                          >
-                                            <p
-                                              color="#47d147"
-                                              index={0}
-                                            >
-                                              <StyledComponent
-                                                color="#47d147"
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "sc-dnqmqq",
-                                                      "isStatic": false,
-                                                      "lastClassName": "cRgTQf",
-                                                      "rules": Array [
-                                                        "
-    margin: ",
-                                                        [Function],
-                                                        ";
-    color: ",
-                                                        [Function],
-                                                        ";
-",
-                                                      ],
-                                                    },
-                                                    "displayName": "p",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "sc-dnqmqq",
-                                                    "target": "p",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
+                                                    ],
+                                                  },
+                                                  "displayName": "div",
+                                                  "foldedComponentIds": Array [],
+                                                  "render": [Function],
+                                                  "styledComponentId": "sc-htoDjs",
+                                                  "target": "div",
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
                                                 }
-                                                forwardedRef={null}
-                                                index={0}
+                                              }
+                                              forwardedRef={null}
+                                            >
+                                              <div
+                                                className="sc-htoDjs goewmn"
                                               >
                                                 <p
-                                                  className="sc-dnqmqq gPgCvF"
                                                   color="#47d147"
+                                                  index={0}
                                                 >
-                                                  60
-                                                  %
-                                                </p>
-                                              </StyledComponent>
-                                            </p>
-                                            <p
-                                              color="#47d147"
-                                              index={0}
-                                              type="value"
-                                            >
-                                              <StyledComponent
-                                                color="#47d147"
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "sc-dnqmqq",
-                                                      "isStatic": false,
-                                                      "lastClassName": "cRgTQf",
-                                                      "rules": Array [
-                                                        "
+                                                  <StyledComponent
+                                                    color="#47d147"
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "sc-iwsKbI",
+                                                          "isStatic": false,
+                                                          "lastClassName": "etNdsM",
+                                                          "rules": Array [
+                                                            "
     margin: ",
-                                                        [Function],
-                                                        ";
+                                                            [Function],
+                                                            ";
     color: ",
-                                                        [Function],
-                                                        ";
+                                                            [Function],
+                                                            ";
 ",
-                                                      ],
-                                                    },
-                                                    "displayName": "p",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "sc-dnqmqq",
-                                                    "target": "p",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
-                                                }
-                                                forwardedRef={null}
-                                                index={0}
-                                                type="value"
-                                              >
+                                                          ],
+                                                        },
+                                                        "displayName": "p",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "sc-iwsKbI",
+                                                        "target": "p",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                    index={0}
+                                                  >
+                                                    <p
+                                                      className="sc-iwsKbI izXlqC"
+                                                      color="#47d147"
+                                                    >
+                                                      60
+                                                      %
+                                                    </p>
+                                                  </StyledComponent>
+                                                </p>
                                                 <p
-                                                  className="sc-dnqmqq bBeEdo"
                                                   color="#47d147"
+                                                  index={0}
                                                   type="value"
                                                 >
-                                                  120.000 €
+                                                  <StyledComponent
+                                                    color="#47d147"
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "sc-iwsKbI",
+                                                          "isStatic": false,
+                                                          "lastClassName": "etNdsM",
+                                                          "rules": Array [
+                                                            "
+    margin: ",
+                                                            [Function],
+                                                            ";
+    color: ",
+                                                            [Function],
+                                                            ";
+",
+                                                          ],
+                                                        },
+                                                        "displayName": "p",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "sc-iwsKbI",
+                                                        "target": "p",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                    index={0}
+                                                    type="value"
+                                                  >
+                                                    <p
+                                                      className="sc-iwsKbI bwnCbB"
+                                                      color="#47d147"
+                                                      type="value"
+                                                    >
+                                                      120.000 €
+                                                    </p>
+                                                  </StyledComponent>
                                                 </p>
-                                              </StyledComponent>
-                                            </p>
+                                              </div>
+                                            </StyledComponent>
                                           </div>
-                                        </StyledComponent>
-                                      </div>
+                                        </div>
+                                      </StyledComponent>
                                     </div>
                                   </ChartDetail>
                                   <ChartDetail
@@ -985,192 +1030,222 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
                                     key="135"
                                     value="80.000 €"
                                   >
-                                    <div>
-                                      <h2
-                                        color="#006600"
+                                    <div
+                                      index={1}
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "sc-dnqmqq",
+                                              "isStatic": false,
+                                              "lastClassName": "jJdajq",
+                                              "rules": Array [
+                                                "
+    display: flex;
+    flex-direction: column;
+    text-align: ",
+                                                [Function],
+                                                ";
+",
+                                              ],
+                                            },
+                                            "displayName": "div",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "sc-dnqmqq",
+                                            "target": "div",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={null}
                                         index={1}
                                       >
-                                        <StyledComponent
-                                          color="#006600"
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "sc-gzVnrw",
-                                                "isStatic": false,
-                                                "lastClassName": "fMoslM",
-                                                "rules": Array [
-                                                  "
-    color: ",
-                                                  [Function],
-                                                  ";
-    font-weight: bolder;
-    float: ",
-                                                  [Function],
-                                                  "
-",
-                                                ],
-                                              },
-                                              "displayName": "h2",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "sc-gzVnrw",
-                                              "target": "h2",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          index={1}
+                                        <div
+                                          className="sc-dnqmqq jJdajq"
                                         >
                                           <h2
-                                            className="sc-gzVnrw fMoslM"
                                             color="#006600"
+                                            index={1}
                                           >
-                                            Smartphone
+                                            <StyledComponent
+                                              color="#006600"
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "sc-gzVnrw",
+                                                    "isStatic": false,
+                                                    "lastClassName": "dkFbWY",
+                                                    "rules": Array [
+                                                      "
+    color: ",
+                                                      [Function],
+                                                      ";
+    font-weight: bolder;
+",
+                                                    ],
+                                                  },
+                                                  "displayName": "h2",
+                                                  "foldedComponentIds": Array [],
+                                                  "render": [Function],
+                                                  "styledComponentId": "sc-gzVnrw",
+                                                  "target": "h2",
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
+                                                }
+                                              }
+                                              forwardedRef={null}
+                                              index={1}
+                                            >
+                                              <h2
+                                                className="sc-gzVnrw dkFbWY"
+                                                color="#006600"
+                                              >
+                                                Smartphone
+                                              </h2>
+                                            </StyledComponent>
                                           </h2>
-                                        </StyledComponent>
-                                      </h2>
-                                      <div
-                                        index={1}
-                                      >
-                                        <StyledComponent
-                                          forwardedComponent={
-                                            Object {
-                                              "$$typeof": Symbol(react.forward_ref),
-                                              "attrs": Array [],
-                                              "componentStyle": ComponentStyle {
-                                                "componentId": "sc-htoDjs",
-                                                "isStatic": false,
-                                                "lastClassName": "dDTyOE",
-                                                "rules": Array [
-                                                  "
+                                          <div>
+                                            <StyledComponent
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "sc-htoDjs",
+                                                    "isStatic": true,
+                                                    "lastClassName": "goewmn",
+                                                    "rules": Array [
+                                                      "
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    float: ",
-                                                  [Function],
-                                                  "
 ",
-                                                ],
-                                              },
-                                              "displayName": "div",
-                                              "foldedComponentIds": Array [],
-                                              "render": [Function],
-                                              "styledComponentId": "sc-htoDjs",
-                                              "target": "div",
-                                              "toString": [Function],
-                                              "warnTooManyClasses": [Function],
-                                              "withComponent": [Function],
-                                            }
-                                          }
-                                          forwardedRef={null}
-                                          index={1}
-                                        >
-                                          <div
-                                            className="sc-htoDjs dDTyOE"
-                                          >
-                                            <p
-                                              color="#006600"
-                                              index={1}
-                                            >
-                                              <StyledComponent
-                                                color="#006600"
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "sc-dnqmqq",
-                                                      "isStatic": false,
-                                                      "lastClassName": "cRgTQf",
-                                                      "rules": Array [
-                                                        "
-    margin: ",
-                                                        [Function],
-                                                        ";
-    color: ",
-                                                        [Function],
-                                                        ";
-",
-                                                      ],
-                                                    },
-                                                    "displayName": "p",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "sc-dnqmqq",
-                                                    "target": "p",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
+                                                    ],
+                                                  },
+                                                  "displayName": "div",
+                                                  "foldedComponentIds": Array [],
+                                                  "render": [Function],
+                                                  "styledComponentId": "sc-htoDjs",
+                                                  "target": "div",
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
                                                 }
-                                                forwardedRef={null}
-                                                index={1}
+                                              }
+                                              forwardedRef={null}
+                                            >
+                                              <div
+                                                className="sc-htoDjs goewmn"
                                               >
                                                 <p
-                                                  className="sc-dnqmqq gSWTwM"
                                                   color="#006600"
+                                                  index={1}
                                                 >
-                                                  40
-                                                  %
-                                                </p>
-                                              </StyledComponent>
-                                            </p>
-                                            <p
-                                              color="#006600"
-                                              index={1}
-                                              type="value"
-                                            >
-                                              <StyledComponent
-                                                color="#006600"
-                                                forwardedComponent={
-                                                  Object {
-                                                    "$$typeof": Symbol(react.forward_ref),
-                                                    "attrs": Array [],
-                                                    "componentStyle": ComponentStyle {
-                                                      "componentId": "sc-dnqmqq",
-                                                      "isStatic": false,
-                                                      "lastClassName": "cRgTQf",
-                                                      "rules": Array [
-                                                        "
+                                                  <StyledComponent
+                                                    color="#006600"
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "sc-iwsKbI",
+                                                          "isStatic": false,
+                                                          "lastClassName": "etNdsM",
+                                                          "rules": Array [
+                                                            "
     margin: ",
-                                                        [Function],
-                                                        ";
+                                                            [Function],
+                                                            ";
     color: ",
-                                                        [Function],
-                                                        ";
+                                                            [Function],
+                                                            ";
 ",
-                                                      ],
-                                                    },
-                                                    "displayName": "p",
-                                                    "foldedComponentIds": Array [],
-                                                    "render": [Function],
-                                                    "styledComponentId": "sc-dnqmqq",
-                                                    "target": "p",
-                                                    "toString": [Function],
-                                                    "warnTooManyClasses": [Function],
-                                                    "withComponent": [Function],
-                                                  }
-                                                }
-                                                forwardedRef={null}
-                                                index={1}
-                                                type="value"
-                                              >
+                                                          ],
+                                                        },
+                                                        "displayName": "p",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "sc-iwsKbI",
+                                                        "target": "p",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                    index={1}
+                                                  >
+                                                    <p
+                                                      className="sc-iwsKbI izIgWz"
+                                                      color="#006600"
+                                                    >
+                                                      40
+                                                      %
+                                                    </p>
+                                                  </StyledComponent>
+                                                </p>
                                                 <p
-                                                  className="sc-dnqmqq cRgTQf"
                                                   color="#006600"
+                                                  index={1}
                                                   type="value"
                                                 >
-                                                  80.000 €
+                                                  <StyledComponent
+                                                    color="#006600"
+                                                    forwardedComponent={
+                                                      Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "attrs": Array [],
+                                                        "componentStyle": ComponentStyle {
+                                                          "componentId": "sc-iwsKbI",
+                                                          "isStatic": false,
+                                                          "lastClassName": "etNdsM",
+                                                          "rules": Array [
+                                                            "
+    margin: ",
+                                                            [Function],
+                                                            ";
+    color: ",
+                                                            [Function],
+                                                            ";
+",
+                                                          ],
+                                                        },
+                                                        "displayName": "p",
+                                                        "foldedComponentIds": Array [],
+                                                        "render": [Function],
+                                                        "styledComponentId": "sc-iwsKbI",
+                                                        "target": "p",
+                                                        "toString": [Function],
+                                                        "warnTooManyClasses": [Function],
+                                                        "withComponent": [Function],
+                                                      }
+                                                    }
+                                                    forwardedRef={null}
+                                                    index={1}
+                                                    type="value"
+                                                  >
+                                                    <p
+                                                      className="sc-iwsKbI etNdsM"
+                                                      color="#006600"
+                                                      type="value"
+                                                    >
+                                                      80.000 €
+                                                    </p>
+                                                  </StyledComponent>
                                                 </p>
-                                              </StyledComponent>
-                                            </p>
+                                              </div>
+                                            </StyledComponent>
                                           </div>
-                                        </StyledComponent>
-                                      </div>
+                                        </div>
+                                      </StyledComponent>
                                     </div>
                                   </ChartDetail>
                                 </div>
@@ -1187,7 +1262,6 @@ exports[`CAROUSEL COMPONENT snapchat correctly 1`] = `
             </div>
           </StyledComponent>
         </SliderWrapperDiv>
-        0
       </div>
     </StyledComponent>
   </SliderDiv>

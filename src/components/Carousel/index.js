@@ -48,7 +48,7 @@ export default class Carousel extends Component {
         if (this.state.translateValue === 0) return
 
         this.setState(prevState => ({
-            translateValue: prevState.translateValue + pageMove,
+            translateValue: prevState.translateValue + this.slideElement.current.clientWidth,
             buttonVisiblity: true
         }));
     }
@@ -56,7 +56,7 @@ export default class Carousel extends Component {
     goToNextSlide = () => {
         if (-this.state.translateValue + pageWidth() > this.maxSlidesWidth() - pageMove  ) return
         this.setState(prevState => ({
-            translateValue: prevState.translateValue - pageMove,
+            translateValue: prevState.translateValue - this.slideElement.current.clientWidth,
             index: prevState.index + 1,
             buttonVisiblity: true
         }));
@@ -72,7 +72,7 @@ export default class Carousel extends Component {
                         </SlideDiv>
                     ))}
                 </SliderWrapperDiv>
-                {this.state.buttonVisiblity && <Fragment>
+                {this.state.buttonVisiblity === true && <Fragment>
                     <CarouselButton type="left" onClick={this.goToPreviousSlide} />
                     <CarouselButton type="right" onClick={this.goToNextSlide} />
                 </Fragment>

@@ -35,8 +35,8 @@ describe('LINECHART COMPONENT', () => {
         expect(wrapper.find('svg').props()['height']).toBe(props.height)
     });
 
-    test('snapchat correctly', () => {
-        expect(wrapper).toMatchSnapshot();
-    });
+    // test('snapchat correctly', () => {
+    //     expect(wrapper).toMatchSnapshot();
+    // });
 
 })
