@@ -25,7 +25,6 @@ export const SliderWrapperDiv = styled.div`
     }
     @media screen and (max-width: 600px) {
         display: block;
-        overflow: visible;
     }
 `;
 
